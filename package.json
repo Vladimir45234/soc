@@ -17,8 +17,9 @@
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+
     "react-router-dom": "^7.5.3",
     "sharp": "^0.34.2",
     "socket.io-client": "^4.8.1",
