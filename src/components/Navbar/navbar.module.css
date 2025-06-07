@@ -1,0 +1,13 @@
+.nav {
+    background-color: #f1f0eee1;
+    width: 25%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 75px;
+    left: 37%;
+    align-items: center;
+    border-radius: 90px;
+}

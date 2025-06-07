@@ -1,0 +1,66 @@
+.chatHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: 70px;
+  background-color: #f7f4f4ad;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  margin-top: 45px;
+  padding: 45px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.avatarWrapper {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 65px;
+}
+
+.avatarWrapper > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+  object-fit: cover;
+  object-position: center;
+  filter: opacity(1);
+}
+
+
+.onlineCircle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #adebb3d0;
+  border-radius: 50%;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+
+.partner {
+  font-size: 18px;
+  margin-right: 200px;
+}
+
+.partnerFname {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.more {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  filter: opacity(0.8);
+}
+
+.more:hover {
+  filter: opacity(1);
+}

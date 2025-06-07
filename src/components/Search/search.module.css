@@ -1,0 +1,133 @@
+.search {
+    background-color: rgba(231, 215, 215, 0.63);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1300px;
+    height: 650px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 45px;
+    margin-top: 90px;
+}
+
+.search input {
+    margin-top: 50px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    padding-top: 20px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    width: 100%;
+    height: 600px;
+}
+
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+  background-color: rgba(0, 0, 0, 0.5); /* полупрозрачный темный фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* поверх содержимого блока search */
+  pointer-events: auto;
+  cursor: pointer;
+  /* чтобы клик срабатывал */
+}
+
+.modal {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  width: 1000px;
+  height: 520px;
+  max-width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer-events: auto;
+  
+}
+
+.avatarka {
+  width: 400px;
+  height: 400px;
+}
+
+.avatar {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+}
+
+
+.closeButton {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 76px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.closeButton:hover {
+  color: #ff4d4f;
+}
+
+.use {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222;
+  margin-left: 10px;
+}
+
+
+.chat {
+    cursor: pointer;
+    background-color: #e7dfb8;
+    width: 75%;
+    margin-top: 40px;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+    
+}
+
+.chat button {
+    cursor: pointer;
+    color: rgb(173, 61, 61);
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    font-size: 21px;
+}

@@ -1,0 +1,141 @@
+.chats {
+    background-color: #E7D7D7;
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 650px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 45px;
+    margin-top: 90px;
+}
+
+.chats input {
+    margin-top: 50px;
+    display: flex;
+    border: none;
+    background-color: #F4E6E6;
+    font-size: 25px; 
+    color: #887272;
+    outline: none;
+    text-align: center;
+    height: 43.9px;
+    align-items: center;
+    width: 377.48px;
+    border-radius: 90px;
+    margin-left: 700px;
+    position: relative;
+
+}
+
+.allChats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    width: 100%;
+    height: 600px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.partnerFname {
+  color: #886F6F;
+}
+
+.chat {
+    cursor: pointer;
+    background-color: #FFF8ED;
+    width: 789.72px;
+    height: 122.37px;
+    border-radius: 90px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.none {
+
+  margin-top: 225px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #c45d5d;
+}
+
+.st, .lastSeen {
+  color: #7D8E7D;
+}
+
+.unreadCount {
+  background-color: #e03e3e;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  padding: 5px 8px;
+  height: 25px;
+  width: 25px;
+  font-size: 18px;
+  min-width: 20px;
+  font-weight: normal;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  user-select: none;
+  border-radius: 45px;
+  margin-bottom: auto;
+  left: 50px;
+
+}
+
+.msgText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 225px;
+    max-width: 225px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avatarWrapper {
+  position: relative;
+  display: flex;
+  width: 75px;
+  height: 75px;
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineCircle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #adebb3d0;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.more {
+    width: 65px;
+    height: 65px;
+}

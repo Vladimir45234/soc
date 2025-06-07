@@ -1,0 +1,26 @@
+.icons {
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: 150px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    width: 52.62px;
+    height: 52.62px;
+}
+
+
+
+.icons img {
+    background-color: inherit;
+}
+
+#circle1 {
+    margin-right: 10px;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+#circle2 {
+    cursor: pointer;
+}

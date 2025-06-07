@@ -1,0 +1,40 @@
+.loginForm {
+    background-color: #e7dfb8;
+    color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 420px;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm input {
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginForm button {
+    cursor: pointer;
+    padding-top: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 45px;
+}
+
+.loginLink {
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d17979;
+}

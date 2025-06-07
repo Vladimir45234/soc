@@ -1,0 +1,45 @@
+.registerContainer {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.registerForm {
+    background-color: #e7dfb8;
+    width: 500px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 45px;
+}
+
+.registerForm input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1e1e1e;
+    background-color: #e7dfb8;
+}
+
+.registerForm button {
+    padding-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 45px;
+    background-color: transparent;
+}
+
+.registerLink {
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d17979;
+}

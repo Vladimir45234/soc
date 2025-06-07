@@ -1,0 +1,69 @@
+.chatBody {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 60%;
+  height: 500px;
+  max-height: 500px;
+  background-color: #f7f4f4ad;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  margin-bottom: 45px;
+}
+
+.messagesList {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.messageBubble {
+  background-color: transparent;
+  max-width: 30%;
+  padding: 15px 15px;
+  margin: 5px 5px;
+  border-radius: 20px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.myMessage {
+  background-color: #cfffd69a;
+  align-self: flex-end;
+  margin-left: auto;
+  border-bottom-right-radius: 0;
+}
+
+.theirMessage {
+  background-color: #fddcdcb7;
+  align-self: flex-start;
+  margin-right: auto;
+  border-bottom-left-radius: 0;
+}
+
+.messageTime {
+  background-color: transparent;
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.readReceipt {
+  background-color: transparent;
+  font-size: 0.8rem;
+  color: gray;
+  user-select: none;
+  margin-left: 5px;
+
+}
+
+.perf {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  float: right;
+  margin-top: 20px;
+}
+

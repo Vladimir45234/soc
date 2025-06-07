@@ -1,0 +1,17 @@
+.chat {
+  background-color: rgba(231, 215, 215, 0.63);
+  width: 1300px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 45px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 90px;
+}
+
+.errorMessage {
+  text-align: center;
+  margin-bottom: 20px;
+}
