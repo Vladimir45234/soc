@@ -21,7 +21,7 @@ function normalizeChat(chat) {
 
 
 const fetchChats = async () => {
-  const { data } = await axios.get('http://localhost:5000/api/chats/my-chats', {
+   const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/api/chats/my-chats`, {
     withCredentials: true,
   });
   return data.chats.map(normalizeChat);
@@ -29,7 +29,7 @@ const fetchChats = async () => {
 
 const fetchPartnerInfo = async (chatId) => {
   try {
-    const { data } = await axios.get(`http://localhost:5000/api/chats/${chatId}/info`, {
+    const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/api/chats/${chatId}/info`, {
       withCredentials: true,
     });
     return data.partner;
@@ -151,7 +151,7 @@ export default function Chats() {
 
   const deleteChat = async (chatId) => {
     try {
-      await axios.delete(`http://localhost:5000/api/chats/${chatId}`, { withCredentials: true });
+      await axios.delete(`${import.meta.env.VITE_API_URL}/api/chats/${chatId}`, { withCredentials: true });
       handleCloseContextMenu();
       // Обновить список чатов после удаления
       refetch();
@@ -193,7 +193,7 @@ export default function Chats() {
                         <div className={classes.avatarWrapper}>
                           
                           <img
-                            src={`http://localhost:5000${chat.partner.avatar}`}
+                            src={`${import.meta.env.VITE_API_URL}${chat.partner.avatar}`}
                             alt="Avatar"
                             className={classes.avatarImage}
                           />
